@@ -192,6 +192,13 @@ cat DOSYA.md | python scripts/sade-lint.py                 # stdin
 
 Sert bulgu varsa çıkış kodu 1 olur. Seçeneklerin tamamı `SKILL.md` içindeki Tablo 3'tedir.
 
+### Her cevapta: session-band düğmesi
+
+Kuralları tek bir metne değil her cevaba uygulamak için
+[claude-session-band](https://github.com/einaruk/claude-session-band) modunu kullan. Bu skill
+kuruluysa bant bir `🧹 on/off` düğmesi gösterir. Düğme açıkken bant kuralların özetini her
+prompt'a ekler. Düğmeyi kapatınca Claude olağan üslubuna döner.
+
 ## Testler
 
 ```bash
