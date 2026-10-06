@@ -150,6 +150,17 @@ değil, örnek diye oku.
 
 Gereken: Python 3.9 ya da üstü. Linter yalnız standart kütüphaneyi kullanır.
 
+### Hızlı kurulum (skills CLI)
+
+```bash
+npx skills add einaruk/tr-sade-teknik-dil
+```
+
+Komut skill'i bulunduğun projeye kurar. [skills CLI](https://skills.sh/) anonim kurulum
+telemetrisi gönderir. Kapatmak için `DISABLE_TELEMETRY=1` ayarla.
+
+### Klonlama
+
 Skill'i Claude Code'un kişisel skill klasörüne klonla:
 
 ```bash
